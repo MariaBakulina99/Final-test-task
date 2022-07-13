@@ -15,11 +15,11 @@ of the page in case any test case will fail.
 
 [tests/test_smoke_wildberries.py](tests/test_smoke_wildberries.py) contains several smoke Web UI tests for Wildberries (https://www.wildberries.ru/)
 
-[tests/test_footer.py] (tests/test_footer.py) contains main page several footer tests (https://www.wildberries.ru/)
+[tests/test_footer.py](tests/test_footer.py) contains main page several footer tests (https://www.wildberries.ru/)
 
-[tests/test_header.py] (tests/test_header.py) contains main page several header tests (https://www.wildberries.ru/)
+[tests/test_header.py](tests/test_header.py) contains main page several header tests (https://www.wildberries.ru/)
 
-[tests/test_main_page.py] (tests/test_main_page.py) contains main page several main page tests (https://www.wildberries.ru/)
+[tests/test_main_page.py](tests/test_main_page.py) contains main page several main page tests (https://www.wildberries.ru/)
 
 
 How To Run Tests
@@ -39,8 +39,5 @@ How To Run Tests
     ```bash
     python3 -m pytest -v --driver Chrome --driver-path ~/chrome tests/*
     ```
-
-   ![alt text](example.png)
-
 Note:
 ~/chrome in this example is the file of Selenium WebDriver downloaded and unarchived on step #2.
