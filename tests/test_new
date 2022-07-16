@@ -1,9 +1,0 @@
-def test_banner_oysho_zara_bershka(web_browser):
-    """ Make sure that first banner in carousel redirects to the right page """
-    page = MainPage(web_browser)
-    page.oysho_zara_bershka.click()
-    page.wait_page_loaded()
-
-    assert page.header_one.get_text() == 'Zara, Bershka, OYSHO, Pull and Bear, Stradivarius, Massimo Dutti'
-
-
