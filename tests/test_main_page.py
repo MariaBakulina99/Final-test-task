@@ -150,6 +150,7 @@ def test_banner_unilever(web_browser):
 
     assert page.header_one.get_text() == 'Unilever'
 
+
 def test_banner_himia(web_browser):
     """ Make sure that himia banner redirects to the right page """
     page = MainPage(web_browser)
